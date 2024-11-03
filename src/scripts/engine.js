@@ -105,7 +105,7 @@ async function drawButton(text){
 }
 
 async function updateScore(){
-    state.socore.scoreBox.innerText = `Win: ${state.score.playerScore} | Lose: ${state.score.computerScore}`;
+    state.score.scoreBox.innerText = `Win: ${state.score.playerScore} | Lose: ${state.score.computerScore}`;
 }
 
 async function checkDuelResults(playerCardId, ComputerCardId){
